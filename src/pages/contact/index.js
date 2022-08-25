@@ -1,7 +1,7 @@
 import Button from '../../components/Button';
 import { useNavigate } from 'react-router-dom'
 
-function Game () {
+function Contact () {
         const navigate = useNavigate();
 
         const onClickButton = ()=> {
@@ -9,15 +9,21 @@ function Game () {
         }
         
         return(
-            <div className="Juego">
-            <header className="Juego-header">
+            <div className="Contact">
+            <header className="Contact-header">
               <p>
-                Esta es la página del juego
+                Andrea Ross
               </p>
+            <p>
+                Instagram: @andreamorozco
+            </p>
+            <p>
+                Saludos desde México!
+            </p>
         <Button onClick={onClickButton} text='Volver a Home' />
       </header>
       </div>
         )
 }
 
-export default Game;
+export default Contact;
