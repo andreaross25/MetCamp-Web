@@ -10,6 +10,12 @@ function Contact () {
         
         return(
             <div className="Contact">
+              <nav class="breadcrumb is-centered"  aria-label="breadcrumbs">
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/game">MetCampWeb</a></li>
+               </ul>
+              </nav>
             <header className="Contact-header">
               <p>
                 Andrea Ross
